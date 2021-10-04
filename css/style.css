@@ -1,0 +1,594 @@
+body {
+    font-family: Arial, sans-serif;
+}
+nav {
+    width: 100%;
+    height: 60px;
+    background: #344051;
+}
+.logo {
+    color:#fff;
+    font-size: 28px;
+    line-height: 60px;  
+    padding-left: 388px;
+    float: left;
+
+}
+.menu {
+    float: left;
+    padding-left: 432px;
+}
+.menu li {
+    float: left;
+    line-height: 60px;
+    color:#fff;
+    margin-right: 40px;
+    font-size:16px;
+    text-transform: uppercase;
+    
+}
+.main {
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/guy.png) 90% 100%/auto 85% no-repeat,url(../img/background.jpg) center/cover no-repeat;
+}
+.title__container {
+    float: left;
+    margin: 432px 0 0 404px;
+    color:#2c384a;
+    text-align: center;
+}
+.title__container h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+.title__container h4 {
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;
+}
+.title__container input {
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color:#6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 50px 14px 0px 14px;
+}
+.about__me {
+    height: 716px;
+    background: #fcfdfd;
+    background: url(../img/фотка.jpg ) no-repeat;
+    background-position:center 220px;
+    font-size: 33px;
+    float: left;
+    text-align: center;
+    width: 100%;
+    
+
+}
+
+.about__me h3::after 
+{
+        display: block;
+        content: "";
+        height:5px;
+        width: 70px;
+        background-color:#d17700;
+        margin-top: 31px;
+        margin-left: 48%;
+       
+       
+        }
+        .about__me__field {
+            margin: 0 auto;
+            font-size: 17px;
+        }
+
+.about__me h3 {
+    text-align: center;
+    margin-top: 109px;
+    font-size: 33px;
+    font-weight: bold;
+    color:#263244;
+    
+}
+    .about__me p {
+        margin-top: 21px;
+        font-size: 16px;
+        color:#263244;
+        text-align: left;
+        display:flex;
+        justify-content: center;
+        margin-bottom: 37px;
+        line-height: 1.4;
+
+
+    }
+.about__me .about__me__field {
+    margin-top:270px;
+    }
+    .about__me input  {
+       
+        padding: 11px 9px;
+        border: 3px solid #6f707e;
+        border-radius: 12px;
+        background: none ;
+        height: 40px;
+        color: #c4c5ca;
+    
+
+    }
+.my__skills {
+    float: left;
+    height: 519px;
+    width: 100%;
+    background: url(../img/картинка\ фона.jpg) center;
+}
+.my__skills h3 {
+    margin-top:106px ;
+    color: #263244;
+    font-weight: bold;
+    text-align: center;
+    font-size: 33px;
+}
+.my__skills h3::after 
+{
+        display: block;
+        content: "";
+        height:5px;
+        width: 70px;
+        background-color:#d17700;
+        margin-top: 31px;
+        margin-left: 48%;
+        margin-bottom: 113px;
+       
+       
+        }
+.blockf {
+    margin: 112px 0 0 386px ;
+}
+
+.b1, .b2, .b3, .b4 {
+ text-align: center;
+ float: left;
+ line-height: 1.3;
+ margin-left: 50px;
+ 
+}
+
+
+.blockf h4{
+     text-align: center;
+     margin-top: 35px;
+     margin-bottom: 20px;
+     font-weight: bold;
+     color:#d17700;
+     font-size: 16px;
+  
+}
+
+.causes h3 {
+    margin-top:106px ;
+    color: #263244;
+    font-weight: bold;
+    text-align: center;
+    font-size: 33px;
+    
+
+}
+.causes {
+    height: 1190px;   
+    background:white;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+.causes h3::after 
+{
+        display: block;
+        content: "";
+        height:5px;
+        width: 70px;
+        background-color:#d17700;
+        margin-top: 31px;
+        margin-left: 48%; 
+}
+.causes p {
+    margin-top: 31px;
+    margin-bottom: 43px;
+
+}
+.causes img {
+text-align: center;
+}
+.project {
+    text-align: left;
+    width: 1175px;  
+    margin-left: 290px;  
+    height:200px;
+    float: left;
+    position: relative;
+}
+.project p {
+    margin-bottom:13px;
+    color: #384354;
+
+}
+.project_client  {
+    width: 100px;
+    height: 40px;
+    float: left;
+
+}
+.proj_name {
+    width: 200px;
+    float: left;
+
+}
+.proj_name h4 {
+    color: #384354;
+    font-weight: bold;
+}
+.proj_site {
+    width: 200px;
+}
+.project_name h4{
+    margin-bottom:-20px;
+    color: #384354;
+    font-size: 16px;
+    font-weight: bold;
+   
+}
+.project_name {
+ position: absolute;
+ margin-left: 284px;
+ width: 740px;
+ line-height: 1.4;
+
+}
+.proj_name h4 {
+    margin-bottom:-20px;
+}
+.resume_download_button {
+    clear: both;
+}
+.resume_download_button  input {
+    width: 198px;
+    background: #63b5ae;
+    color:#ffffff;
+    height: 43px;
+    border-radius: 5px;
+}
+.cost__calculation {
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+.cost__calculation h3 {
+    margin-top:106px ;
+    color: #263244;
+    font-weight: bold;
+    text-align: center;
+    font-size: 33px;
+    clear: both;
+}
+.cost__calculation_form {
+    width: 800px;
+   text-align: left;
+    margin-left: 480px;
+    margin-top: 57px;
+}
+.type_of_site h4 {
+    color: #1c2534;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.adaptivity_of_site h4 {
+    color: #1c2534;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.design_of_site h4 { 
+    color: #1c2534;
+    font-size: 20px;
+    font-weight: bold;
+}
+.type_of_site input {
+    width: 488px;
+    background-color: #c4c5ca;
+}
+.type_of_site select {
+    width: 488px;
+    background-color: #c4c5ca;
+}
+
+.s_select {
+    background-color: #eeeeee;
+    width: 836px;
+    height: 56px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding: 20px;
+    color:#737373;
+    font-weight: bold;
+
+}
+
+.calculation__results {
+    float: left;
+    text-align: left;
+    line-height: 2.0;
+    margin-left: 480px;
+    width: 840px;
+    font-weight: bold;
+    color:#1c2534;
+
+}
+
+.hr-line {
+	margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 3px solid #d1d1d1;
+    width: 840px;
+    margin-left: 480px;
+}
+.result1 {
+    float: right;
+    font-weight: bold;
+    color:#1c2534;
+
+}
+.result2 {
+    float: right;
+    font-weight: bold;
+    color:#1c2534;
+    margin-bottom: 120px;
+}
+.some__statistics {
+    padding-top: 116px;
+    float: left;
+    width: 100%;
+    height: 498px;
+    background: url(../img/фон2.jpg) no-repeat;
+    margin-bottom: 143px;
+    
+}
+.some__statistics h3 {
+    color: #263244;
+    font-weight: bold;
+    text-align: center;
+    font-size: 33px;
+}
+.some__statistics h3::after {
+display: block;
+content: "";
+height:5px;
+width: 70px;
+background-color:#d17700;
+margin-top: 31px;
+margin-left: 48%;
+margin-bottom: 90px;
+}
+.c1, .c2, .c3, .c4 {
+    text-align: center;
+    float: left;
+    line-height: 1.3;
+    margin-left: 130px;
+    
+}
+.blockd {
+    margin: 16px 0 0 326px ;
+}
+.blockd h4 {
+    text-align: center;
+     margin-top: 35px;
+     margin-bottom: 20px;
+     font-weight: 900;
+     color:#323e4f;
+     font-size: 26px;
+}
+.rewievs {
+    float: left;
+    width: 100%;
+    text-align: center;
+  
+}
+.reviews__field h3 {
+    color: #263244;
+    font-weight: bold;
+    text-align: center;
+    font-size: 33px;
+}
+.reviews__field h3::after {
+    display: block;
+    content: "";
+    height:5px;
+    width: 70px;
+    background-color:#d17700;
+    margin-top: 31px;
+    margin-left: 48%;
+    margin-bottom: 50px;
+}
+.cool {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.reviews__field p {
+    text-align: center;
+    color: #243042;
+    margin-top: 30px;
+    line-height: 1.5;
+    font-weight: normal;
+}
+.cool1 {
+    text-align: center;
+    margin-top: 26px;
+}
+span {
+    font-weight: bold;
+}
+.wrap {
+	left: 50%;
+	text-align: center;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+input {
+	display: none;
+}
+
+label {
+	cursor: pointer;
+	margin: 10px 10px;
+}
+
+label:before {
+	content: '';
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	background: #cfd2d7;
+	border-radius: 50%;
+	z-index: 2;
+
+}
+
+input:checked + label:before {
+	background: #c96500;
+}
+.my__contacts {
+    float: left;
+    width: 100%;
+    height: 806px;
+    background: url(../img/Фон3.jpg) center no-repeat;
+    overflow-x: hidden;
+}
+.my__contacts h3 {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 33px;
+    margin-top: 82px;
+}
+.my__contacts h3::after {
+    display: block;
+    content: "";
+    height:5px;
+    width: 70px;
+    background-color:#d17700;
+    margin-top: 31px;
+    margin-left: 48%;
+    margin-bottom: 50px;
+}
+.my__contacts p {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 49px;
+    margin-top: 30px;
+}
+.v1, .v2, .v3 {
+    text-align: center;
+    float: left;
+    margin-left: 183px;
+    color: #ffffff;
+
+}
+.my__contacts a {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 49px;
+    margin-top: 30px;
+}
+.contact__data {
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin-left: 300px;
+}
+.my__contacts h4 {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 27px;
+    margin-top: 82px;
+}
+.input_t {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.map {
+    height: 352px;
+    background: url(../img/Карта\ копия.jpg) center no-repeat;
+    width: 100%;
+    float: left;
+}
+footer {
+background: #354051;
+color:#d4d6d9;
+height: 102px;
+float: left;
+text-align: center; 
+width:100%;
+padding-top: 50px;
+}
+.im_here {
+    text-align: center;
+    margin-top: 112px;
+}
+.im_here p {
+    text-align: center;
+    margin-top: 21px;
+    z-index: 2;
+    position: absolute;
+    margin-left: 850px;
+    font-weight: bold;
+}
+.txt_b{
+    text-align: left;
+    width: 732px;
+    height: 96px;
+    background: #d2d6dc;
+    color: #bec1c6;
+    border: 1px solid white;
+    resize: vertical;
+    padding:15px;
+    display: block;
+    margin-left: 530px;
+    margin-top: 10px;
+}
+.txt_a {
+    margin-left:32px ;
+    text-align: left;
+    width: 340px;
+    background: #d2d6dc;
+    color: #bec1c6;
+    margin-top: 30px;
+    padding: 10px;
+    height: 33px;
+    resize:none;
+    overflow-y: hidden;
+
+
+}
+.txt_a1 {
+    width: 340px;
+    background: #d2d6dc;
+    color: #bec1c6;
+    margin-left: 48px;
+    margin-top: 30px;
+    padding: 10px;
+    height: 33px;
+    resize: none;
+    overflow-y: hidden;
+}
