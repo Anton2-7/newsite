@@ -31,8 +31,10 @@
           
             <h1>Привет <br> Я Андрей Браун</h1>
             <h4>Фулл стек веб-разработчик</h4>
-            <input type="submit" value="обо мне">
-            <input type="submit" value="Мои работы">
+                <form>
+                    <button class="button1">Обо мне</button>
+                    <button class="button2">Мои работы</button>
+                </form>
         </div>
 
     </div>
@@ -46,7 +48,7 @@
     </div>
 
        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante<br>
-            facilisis bibendum 1dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh. </p> <button><input type="submit" value="Скачать резюме"></button></div>
+            facilisis bibendum 1dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh. </p> <button class="resume"><input type="submit" value="Скачать резюме"></button></div>
         
 
 
@@ -183,12 +185,19 @@
 
         <div class="cool1"><p><span>Михаил</span>, Ген директор ПАО “Газпром”.</p></div>
         <div class="wrap">
+            <div class="form_radio">
             <input type="radio" id="rad1" name="rads">
             <label for="rad1"></label>
+            </div>
+            <div class="form_radio">
             <input type="radio" id="rad2" name="rads" >
             <label for="rad2"></label>
+            </div>
+            <div class="form_radio">
             <input type="radio" id="rad3" name="rads">
             <label for="rad3"></label>
+            </div>
+
         </div>
     </section>
    <section class="my__contacts">
@@ -211,14 +220,12 @@
 
             
             <div class="input_t">
-                <form action="action_form.php" method="POST">
+                <form method="post" name="leave_message">
                 
-                    <textarea class="txt_a" placeholder="Имя"></textarea>
-                    <textarea class="txt_a1" placeholder="Email"></textarea>
-
-                    <textarea class="txt_b" placeholder="Сообщение"></textarea>
-                    <input type="submit">dd
-                  </p>
+                    <input class="txt_a" type="Name" placeholder="Имя" >
+                    <input class="txt_a1 " type="email" placeholder="Email" >
+                    <input class="txt_b" type="text" placeholder="Сообщение" >
+                    <input class="submit_button" type="submit" value="Отправить">   
                 </form>
         </div>
     </section>
