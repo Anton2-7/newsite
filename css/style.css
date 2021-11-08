@@ -248,7 +248,7 @@ header {
 }
 @media all and (max-width: 600px) {
     .menu {
-        padding-bottom: 20px;
+        padding-left: 61px;
         font-family: 'FranklinGot', 'sans-serif';    
         
     }
