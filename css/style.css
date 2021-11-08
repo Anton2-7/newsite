@@ -226,7 +226,6 @@ header {
 }
 @media all and (max-width: 1260px) {
     .menu {
-        padding-left: 1% ;    
         font-family: 'FranklinGot', 'sans-serif';
         margin-top: 0;    
     }
@@ -240,7 +239,7 @@ header {
 
 @media all and (max-width: 888px) {
     .menu {
-        padding-left: 8px;
+       
         font-family: 'FranklinGot', 'sans-serif';    
         
     }
