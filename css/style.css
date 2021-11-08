@@ -58,12 +58,11 @@ body {
         -o-animation: comming 2s;
         animation:comming 2s ;
         font-family: 'FranklinGot', 'sans-serif';
-        padding-right: 100px; 
+        padding-right: 30px; 
     }
 }
 @media all and (max-width: 1032px) {
     .logo {
-    padding-left: 64px;
     -webkit-animation: comming 2s;
     -o-animation: comming 2s;
     animation:comming 2s ;
