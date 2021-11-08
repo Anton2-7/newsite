@@ -131,7 +131,6 @@ body {
 .header__nav {
 	display: block;
 	position: fixed;
-    top: 55px;
     left: 0;
     background:#2a3e51;
     box-shadow: #ccc;
