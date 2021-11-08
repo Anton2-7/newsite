@@ -702,16 +702,7 @@ background-color: white;
     text-align: center;
     font-size: 33px;
 }
-.reviews__field h3::after {
-    display: block;
-    content: "";
-    height:5px;
-    width: 70px;
-    background-color:#d17700;
-    margin-top: 31px;
-    margin-left: 48%;
-    margin-bottom: 50px;
-}
+
 .cool {
     text-align: center;
     margin-bottom: 10px;
@@ -731,14 +722,6 @@ background-color: white;
 span {
     font-weight: bold;
 }
-.wrap {
-	text-align: center;
-    margin-top: 45px;
-    margin-left: 47%;
-}
-
-
-
 label {
 	cursor: pointer;
 	margin: 10px 10px;
@@ -770,12 +753,6 @@ input:checked + label:before {
     height: auto;
 }
 
-.my__contacts p {
-    text-align: center;
-    color: #ffffff;
-    margin-bottom: 49px;
-    margin-top: 30px;
-}
 .my__contacts a {
     text-align: center;
     color: #ffffff;
@@ -1306,9 +1283,7 @@ margin: 31px auto 90px;
     height:5px;
     width: 70px;
     background-color:#d17700;
-    margin-top: 31px;
-    margin-left: 48%;
-    margin-bottom: 50px;
+    margin: 31px auto 90px;
 }
 .cool {
     text-align: center;
@@ -1330,8 +1305,7 @@ span {
 }
 .wrap {
 	text-align: center;
-    margin-top: 45px;
-    margin-left: 47%;
+    margin: 45px auto 0;
 }
 
 
@@ -1376,6 +1350,8 @@ input:checked + label:before {
     color: #ffffff;
     margin-bottom: 49px;
     margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .v1, .v2, .v3 {
     text-align: center;
