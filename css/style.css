@@ -25,7 +25,7 @@ body {
     color:#fff;
     font-size: 28px;
     line-height: 60px;  
-    padding-left: 388px;
+    padding-left: 14%;
     float: left;
     -webkit-animation: comming 2s;
     -o-animation: comming 2s;
@@ -34,7 +34,6 @@ body {
 }
 @media all and (max-width: 1600px) {
     .logo {
-        padding-left: 15% ;    
         font-family: 'FranklinGot', 'sans-serif';
         margin-top: 0;    
         display: inline-block;
@@ -46,7 +45,6 @@ body {
 }
 @media all and (max-width: 1440px) {
     .logo {
-        padding-left: 200px;
         -webkit-animation: comming 2s;
         -o-animation: comming 2s;
         animation:comming 2s ;
@@ -55,7 +53,7 @@ body {
 }
 @media all and (max-width: 1200px) {
     .logo {
-        padding-left: 200px;
+        padding-left: 60px;
         -webkit-animation: comming 2s;
         -o-animation: comming 2s;
         animation:comming 2s ;
@@ -64,7 +62,6 @@ body {
 }
 @media all and (max-width: 1032px) {
     .logo {
-        padding-left: 100px;
           -webkit-animation: comming 2s;
     -o-animation: comming 2s;
     animation:comming 2s ;
@@ -73,7 +70,6 @@ body {
 }
 @media all and (max-width: 888px) {
     .logo {
-        padding-left: 100px; 
         font-family: 'FranklinGot', 'sans-serif';   
         display: inline-block;
         
@@ -106,34 +102,136 @@ body {
         height: auto;  
     }
 }
+.header__nav {
+    position: fixed;
+    z-index: 2;
+    display: block;
+    width: 100%;
+    background: #2a3e51;
+}
+.header__menu {
+    display: flex;
+	position: relative;
+	z-index: 2;
+}
+.header__menu li {
+	list-style: none;
+	margin: 0px 0px 0px 36px;
+	color: #000;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.content-wrapper{
+    margin-top: 78px;
+    padding: 10px;
+    line-height: 34px;
+}
+@media(max-width: 1020px){
+.header__nav {
+	display: block;
+	position: fixed;
+    top: 55px;
+    left: 0;
+    background:#2a3e51;
+    box-shadow: #ccc;
+    width: 100%;
+    box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.37);
+    transition: all 0.4s ease;
+	left:-100%;
+}
+.header__menu {
+	display: block;
+    background: #2a3e51;
+}
+.header__nav.open-menu{
+    left:0;
+}
+.header__menu li {
+	margin: 40px 0px 40px 33px;
+    font-size: 14px;
+	}
+.menu-burger__header {
+	position: relative;
+    width: 40px;
+    height: 35px;
+    display: block;
+    margin-left: 20px;
+    margin-top: 10px;
+   }
+.menu-burger__header span, .menu-burger__header:after, .menu-burger__header:before{
+	height: 3px;
+	width: 100%;
+	position: absolute;
+	background: #257583;
+	margin: 0 auto;
+}
+.menu-burger__header span{
+	top: 16px;
+}
+.menu-burger__header:after, .menu-burger__header:before{
+	content: '';
+}
+.menu-burger__header:after{
+	bottom: 5px;
+}
+.menu-burger__header:before{
+	top: 5px;
+}
+.menu-burger__header.open-menu span {
+	opacity:0; 
+    transition: 0.5s; 
+}
+.menu-burger__header.open-menu:before {
+	transform: rotate(38deg);
+    top: 16px;
+    transition: 0.4s;
+}
+.menu-burger__header.open-menu:after {
+	transform: rotate(-38deg);
+    bottom: 16px;
+    transition: 0.4s;
+}
+
+header {
+	height: 60px;
+    background: #2a3e51;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+.content-wrapper {
+    margin-top: 48px;
+}
+.fixed-pade {
+    overflow: hidden;
+}
+
+
+}
 
 .menu {
     float: left;
-    padding-left: 22%;
+    padding-left: 12%;
     font-family: 'FranklinGot', 'sans-serif';
 }
 
 @media all and (max-width: 1440px) {
     .menu {
-        padding-left: 15% ;    
         font-family: 'FranklinGot', 'sans-serif';
-        margin-top: 0;    
-        display: inline-block;
-
+        margin-top: 0;
+        margin-left: 1px;
     }
 }
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1260px) {
     .menu {
-        padding-left: 10% ;    
+        padding-left: 1% ;    
         font-family: 'FranklinGot', 'sans-serif';
         margin-top: 0;    
-        display: inline-block;
-
     }
 }
 @media all and (max-width: 1033px) {
     .menu {
-        padding-right: 1% ;    
         font-family: 'FranklinGot', 'sans-serif';
         margin-top: 0;    
         display: inline-block;
@@ -143,15 +241,13 @@ body {
 
 @media all and (max-width: 888px) {
     .menu {
-        padding-left: 100px; 
-        padding-bottom: 20px;
+        margin: auto;
         font-family: 'FranklinGot', 'sans-serif';    
         
     }
 }
 @media all and (max-width: 600px) {
     .menu {
-        padding-left: 100px; 
         padding-bottom: 20px;
         font-family: 'FranklinGot', 'sans-serif';    
         
@@ -166,7 +262,7 @@ body {
     float: left;
     line-height: 60px;
     color:#fff;
-    margin-right: 40px;
+    margin-right: 20px;
     font-size:16px;
     text-transform: uppercase;
     -webkit-animation: topshift 0.4s forwards;
@@ -202,7 +298,7 @@ body {
     -o-animation-delay: 2.4s;
     -webkit-animation-delay: 2.4s;
     animation-delay: 2.4s;
-    min-height: calc(100% - 60px);
+    min-height: calc(100% + 90px);
     height: auto;
     background: url(../img/guy.png) 100%/auto 85% no-repeat,url(../img/background.jpg) center/cover no-repeat;
 }
@@ -725,6 +821,7 @@ padding-top: 50px;
 .menu li a{
     transition: all 0.2s;
     color: white;
+    width: 70px;
     transform: scale(1);
     display: inline-block;
 }
@@ -852,64 +949,11 @@ body{background:#ECF0F1;
 body {
     font-family: Arial, sans-serif;
 }
-nav {
-    width: 100%;
-    height: 60px;
-    background: #344051;
-    z-index: 9999;
-    display: inline-block;
 
-}
-
-@media screen and (max-width: 320px) {
-    nav {
-        color:#fff;
-        font-size: 28px;
-        line-height: 60px; 
-        float: left;
-        -webkit-animation: comming 2s;
-        -o-animation: comming 2s;
-        animation:comming 2s ;
-        font-family: 'FranklinGot', 'sans-serif';
-        width: 100%;
-        height: auto;
-        padding-bottom: 20px;
-        border-top: 40px;    
-    }
-}
-@media all and (max-width: 600px) {
-    nav {
-        
-        width: 100%;
-        height: auto;
-       
-    }
-    
-}
-@media screen and (max-width: 888px) {
-    nav {
-        height: auto;
-        font-family: 'FranklinGot', 'sans-serif';    
-        
-    }
-}
-@media screen and (max-width: 1032px) {
-    nav {
-        height: auto;
-        font-family: 'FranklinGot', 'sans-serif';    
-        
-    }
-}
-@media screen and (max-width: 1200px) {
-    nav {
-        height: auto;
-    }
-}
 .menu li {
     float: left;
     line-height: 60px;
     color:#fff;
-    margin-right: 40px;
     font-size:16px;
     text-transform: uppercase;
     
@@ -1406,7 +1450,7 @@ padding-top: 50px;
     }
 .txt_b{
     text-align: left;
-    width: 100%;
+    width: 82%;
     height: 96px;
     background: #d2d6dc;
     color: #5d5d5e;
