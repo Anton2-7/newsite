@@ -223,12 +223,14 @@ header {
     .menu {
         font-family: 'FranklinGot', 'sans-serif';
         margin-top: 0;
+        padding-left: 240px;
     }
 }
-@media all and (max-width: 1260px) {
+@media all and (max-width: 1370px) {
     .menu {
         font-family: 'FranklinGot', 'sans-serif';
         margin-top: 0;    
+        padding-left: 37px;
     }
 }
 @media all and (max-width: 1033px) {
