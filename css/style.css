@@ -247,7 +247,9 @@ header {
 }
 @media all and (max-width: 600px) {
     .menu {
-        padding-left: 61px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         font-family: 'FranklinGot', 'sans-serif';    
         
     }
