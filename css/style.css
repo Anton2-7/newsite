@@ -213,7 +213,6 @@ header {
 
 .menu {
     float: left;
-    padding-left: 12%;
     font-family: 'FranklinGot', 'sans-serif';
 }
 
@@ -221,7 +220,6 @@ header {
     .menu {
         font-family: 'FranklinGot', 'sans-serif';
         margin-top: 0;
-        margin-left: 1px;
     }
 }
 @media all and (max-width: 1260px) {
