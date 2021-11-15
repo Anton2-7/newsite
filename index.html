@@ -136,19 +136,30 @@
 
             <div class="type_of_site "><h4>ТИП САЙТА</h4></div>
 
-                <select class="s_select" name="type_of_site" required="required">
-                    <option class="o_option" value="">Выберите пункт</option>
+                <select class="s_select" name="type_of_site" required="required" >
+                    <optgroup label="Выберите тип сайта">
+                    <option class="o_option" value="">Лэндинг</option>
+                    <option class="o_option" value="">Многостраничный сайт (До 20 страниц)</option>
+                    <option class="o_option" value="">Интернет - магазин</option>
+                    </optgroup>
                 </select>
 
             <div class="design_of_site"><h4>ДИЗАЙН</h4></div>
                 <select class="s_select" name="design_of_site" required="required">
-                    <option class="o_option" value="">Выберите пункт</option>
+                    <optgroup label="Выберите дизайн">
+                    <option class="o_option" value="">Готовый шаблон</option>
+                    <option class="o_option" value="">Под заказ</option>
+                    </optgroup>
                 </select>
-
+         
             <div class="adaptivity_of_site"><h4>АДАПТИВНОСТЬ</h4></div>
                 <select class="s_select" name="adaptivity_of_site" required="required">
-                    <option class="o_option" value="">Выберите пункт</option>
+                    <optgroup label="Выберите адаптивность вашего сайта">
+                    <option class="o_option" value="">Статический (Без адаптивности)</option>
+                    <option class="o_option" value="">Адаптивный (Под различные разрешения экранов) + (Мобильная вёрстка)</option>
+
                 </select>
+                    </optgroup>
                 <hr class="hr-line"></hr>
         </form>
         <div class="calculation__results">
